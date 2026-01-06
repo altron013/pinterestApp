@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.MySplashScreen" parent="Theme.SplashScreen" tools:ignore="ResourceCycle">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/pinterest_drawn_icon</item>
+        <item name="postSplashScreenTheme">@style/Theme.MySplashScreen</item>
+    </style>
+
+
+
+
+    <style name="Theme.MyApplication" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
