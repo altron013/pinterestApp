@@ -93,7 +93,7 @@ fun NavHostContainer(
                 })
             ) { backStackEntry ->
                 val url = backStackEntry.arguments?.getString("imageUrl")
-                url?.let { ImageDetailScreen(it) }
+                url?.let { ImageDetailScreen(it,navController) }
             }
 
         })

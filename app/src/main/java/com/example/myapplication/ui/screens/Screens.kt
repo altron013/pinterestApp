@@ -28,26 +28,26 @@ import androidx.navigation.NavController
 @Composable
 fun HomeScreen(navController:NavController) {
     val images = listOf(
-        "https://picsum.photos/300/500",
-        "https://picsum.photos/400/300",
-        "https://picsum.photos/350/450",
-        "https://picsum.photos/200/400",
-        "https://picsum.photos/450/300",
-        "https://picsum.photos/300/400",
-        "https://picsum.photos/400/500",
-        "https://picsum.photos/500/300",
-        "https://picsum.photos/300/600",
-        "https://picsum.photos/350/500",
-        "https://picsum.photos/450/400",
-        "https://picsum.photos/400/450",
-        "https://picsum.photos/500/350",
-        "https://picsum.photos/300/300",
-        "https://picsum.photos/350/350",
-        "https://picsum.photos/400/400",
-        "https://picsum.photos/450/450",
-        "https://picsum.photos/500/500",
-        "https://picsum.photos/300/350",
-        "https://picsum.photos/350/300"
+        "https://picsum.photos/800/1200",
+        "https://picsum.photos/900/1200",
+        "https://picsum.photos/1000/1200",
+        "https://picsum.photos/800/1000",
+        "https://picsum.photos/900/1100",
+        "https://picsum.photos/1200/800",
+        "https://picsum.photos/1200/900",
+        "https://picsum.photos/1080/1920",
+        "https://picsum.photos/1200/1600",
+        "https://picsum.photos/1000/1500",
+        "https://picsum.photos/900/1400",
+        "https://picsum.photos/1200/1200",
+        "https://picsum.photos/1400/900",
+        "https://picsum.photos/1600/1200",
+        "https://picsum.photos/1500/1000",
+        "https://picsum.photos/1920/1080",
+        "https://picsum.photos/1600/1600",
+        "https://picsum.photos/1800/1200",
+        "https://picsum.photos/1200/1800",
+        "https://picsum.photos/1400/1400"
     )
 
     fun String.toRoute(): String =
